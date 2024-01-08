@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+   
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.banner {
+    background: url('img/Banner\ Image.png');
+    /* background-repeat: no-repeat; */
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.new_year_banner{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('img/Banner\ Image.png') center/cover;
+    border-radius: 10px;
+    width: 1300px;
+    height: 600px;
+    position: absolute;
+    opacity: .3;
+
+}
+.new_year_texts{
+    color: rgb(20, 235, 38);
+    text-align:center;
+    padding: 260px 0px;
+}
+.new_year_greeting{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.banner_title{
+    width:350px;
+    font-size: 45px;
+    font-weight: 900;
+   
+}
+
+.hero_area{
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.off_price{
+    font-family: inter;
+    font-size: 75px;
+    font-weight: 700;
+    padding: 45px;
+}
+.text_color{
+    color: red;
+}
+.all_category{
+    font-family: inter;
+    padding-top: 20px;
+}
+.hero_pic{
+    width: 500px;
+    height: 280px;
+    padding-top: 30px;
+}
+.hero_second{
+    background: url("img/Vectorrr.png");
+    background-repeat: no-repeat;
+    /*  */
+    height: 600px;
+    margin: 50px 40px;
+    position: relative;
+
+
+}
+.hero_second_container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.hero_second_left{
+    padding-top: 250px;
+    padding-left:120px;
+    width: 35%;
+    color: white;
+    text-align: left;
+}
+.second_left_h1{
+    width: 600px;
+    letter-spacing: 7.04px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.second_left_para{
+    padding: 15px 0px;
+}
+.hero_second_right img{
+    width: 100%;
+    padding-right: 80px;
+    padding-top: 80px;
+   
+}
+.Join_now_btn{
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+   
+}
+.Join_now_btn a{
+     color: white;
+    text-decoration: none;
+
+}
+.Join_now_btn:hover a{
+    transition: .5s;
+    cursor: pointer;
+    color: black;
+}
+.Join_now_btn:hover{
+   background-color: white;
+    color: black;
+}
+.park_hotel_section{
+    /* background:linear-gradient(to bottom, red, white);
+    opacity: .1; */
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 130px;
+    border-radius: 15px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.park_hotel_text{
+    padding-top: 130px;
+}
+.join_now_btn_2{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+.join_now_btn_2:hover{
+    background-color: rgb(3, 124, 11);
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+/* coming soon styles */
+.coming_soon_section{
+    display: flex;
+    justify-content: space-around;
+   
+    margin-top:200px ;
+}
+
+.coming_soon_first{
+    width: 400px;
+    
+}
+.coming_soon_title{
+    padding: 10px 0px;
+    color: red;
+}
+.coming_soon_second{
+    padding-left: 120px;
+}
+.ellipse_img{
+    width: 300px;
+    padding: 20px;
+    outline: 10px solid red;
+    border-radius: 50%;
+}
+.coming_soon_third{
+    padding-left: 120px;
+    width: 350px;
+}
+.coming_soon_third_para{
+    padding: 10px 0px;
+}
