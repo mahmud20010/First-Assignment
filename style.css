@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
-   
+
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -24,58 +24,67 @@ main{
     display: flex;
 
 }
-.new_year_banner{
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-        url('img/Banner\ Image.png') center/cover;
+
+.new_year_banner {
+    /* background-image: url("img/Banner\ Image.png"); */
     border-radius: 10px;
     width: 1300px;
     height: 600px;
     position: absolute;
     opacity: .3;
 
+
 }
-.new_year_texts{
-    color: rgb(20, 235, 38);
-    text-align:center;
+
+.new_year_texts {
+    color: rgb(244, 0, 0);
+    text-align: center;
     padding: 260px 0px;
+    text-shadow: 5px 5px -5px;
 }
-.new_year_greeting{
+
+.new_year_greeting {
     font-size: 25px;
     font-weight: 500;
 
 }
-.banner_title{
-    width:350px;
+
+.banner_title {
+    width: 350px;
     font-size: 45px;
     font-weight: 900;
-   
+
 }
 
-.hero_area{
+.hero_area {
     margin-top: 150px;
     align-items: center;
     text-align: center;
 }
 
-.off_price{
+.off_price {
     font-family: inter;
     font-size: 75px;
     font-weight: 700;
     padding: 45px;
 }
-.text_color{
+
+.text_color {
     color: red;
 }
-.all_category{
+
+.all_category {
     font-family: inter;
     padding-top: 20px;
 }
-.hero_pic{
+
+.hero_pic {
     width: 500px;
     height: 280px;
     padding-top: 30px;
 }
-.hero_second{
+
+.hero_second {
     background: url("img/Vectorrr.png");
     background-repeat: no-repeat;
     /*  */
@@ -85,56 +94,65 @@ main{
 
 
 }
-.hero_second_container{
+
+.hero_second_container {
     position: absolute;
     display: flex;
     justify-content: space-between;
 }
-.hero_second_left{
+
+.hero_second_left {
     padding-top: 250px;
-    padding-left:120px;
+    padding-left: 120px;
     width: 35%;
     color: white;
     text-align: left;
 }
-.second_left_h1{
+
+.second_left_h1 {
     width: 600px;
     letter-spacing: 7.04px;
     font-weight: 900;
     font-size: 45px;
 }
 
-.second_left_para{
+.second_left_para {
     padding: 15px 0px;
 }
-.hero_second_right img{
+
+.hero_second_right img {
     width: 100%;
     padding-right: 80px;
     padding-top: 80px;
-   
+
 }
-.Join_now_btn{
+
+.Join_now_btn {
     padding: 10px;
     background-color: black;
     border: none;
     border-radius: 5px;
-   
+
 }
-.Join_now_btn a{
-     color: white;
+
+.Join_now_btn a {
+    color: white;
     text-decoration: none;
 
 }
-.Join_now_btn:hover a{
+
+.Join_now_btn:hover a {
     transition: .5s;
     cursor: pointer;
     color: black;
 }
-.Join_now_btn:hover{
-   background-color: white;
+
+.Join_now_btn:hover {
+    background-color: white;
     color: black;
 }
-.park_hotel_section{
+
+.park_hotel_section {
     /* background:linear-gradient(to bottom, red, white);
     opacity: .1; */
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -145,10 +163,12 @@ main{
     text-align: center;
     align-items: center;
 }
-.park_hotel_text{
+
+.park_hotel_text {
     padding-top: 130px;
 }
-.join_now_btn_2{
+
+.join_now_btn_2 {
     margin-top: 20px;
     background-color: red;
     color: white;
@@ -157,41 +177,193 @@ main{
     border-radius: 5px;
 
 }
-.join_now_btn_2:hover{
+
+.join_now_btn_2:hover {
     background-color: rgb(3, 124, 11);
     color: white;
     transition: .5s;
     cursor: pointer;
 }
+
 /* coming soon styles */
-.coming_soon_section{
+.coming_soon_section {
     display: flex;
     justify-content: space-around;
-   
-    margin-top:200px ;
+
+    margin-top: 200px;
 }
 
-.coming_soon_first{
+.coming_soon_first {
     width: 400px;
-    
+
 }
-.coming_soon_title{
+
+.coming_soon_title {
     padding: 10px 0px;
     color: red;
 }
-.coming_soon_second{
-    padding-left: 120px;
+
+.coming_soon_second {
+    padding-left: 30px;
 }
-.ellipse_img{
+
+.ellipse_img {
     width: 300px;
     padding: 20px;
     outline: 10px solid red;
     border-radius: 50%;
 }
-.coming_soon_third{
+
+.coming_soon_third {
     padding-left: 120px;
     width: 350px;
 }
-.coming_soon_third_para{
+
+.coming_soon_third_para {
     padding: 10px 0px;
+}
+
+/* holiday section styles */
+
+.holiday_container{
+    background-image: url(img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.holidays_section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.holiday_title {
+    padding: 10px;
+}
+
+.holiday_heading {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.holiday_para {
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 10px;
+}
+
+/* discount section */
+/* .discount_section{
+    background-image: url("./img/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+} */
+
+.discount_section {
+    margin-right: 180px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.pictures img {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+
+.all_title {
+    /* text-align: left; */
+    font-family: Merriweather;
+    margin-top: 150px;
+    margin-left: 180px;
+
+}
+
+.Portfolio_title {
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.portfolio_para {
+    padding: 15px 0px;
+}
+
+/* subscribe section styles */
+.subscribe_container {
+   
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    /* margin: 0 auto; */
+    padding: 35px;
+    /* padding-left: 350px; */
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 50px 120px ;
+    text-align: center;
+    
+    /* padding-left: 350px; */
+    
+}
+
+.newletter_heading{
+    margin: 15px 0px;
+}
+
+.newsletter_para{
+    margin: 15px 0px;
+}
+.subscribe_left{
+    width: 400px;
+}
+#label{
+    position:relative;
+    margin: 20px 0px;
+}
+
+.email_input {
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px 0 0 25px;
+    position: relative;
+}
+
+.btn_subscribe {
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+}
+
+.btn_subscribe:hover {
+    background-color: white;
+    color: red;
+    transition: .5s;
+}
+
+label {
+    padding: 15px 0px;
 }
