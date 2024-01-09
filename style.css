@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', 'Inter';
-    
+
 
 
 }
@@ -13,38 +13,21 @@ body {
     margin: 0 auto;
 }
 
-
-
 .banner {
-    background: url('img/Banner\ Image.png');
-    /* background-repeat: no-repeat; */
-    width: 1300px;
+    background-image: url("img/Banner\ Image.png");
     height: 600px;
-    margin: 30px auto;
     border-radius: 10px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-}
-
-.new_year_banner {
-    /* background-image: url("img/Banner\ Image.png"); */
-    border-radius: 10px;
-    width: 1300px;
-    height: 600px;
-    position: absolute;
-    opacity: .3;
-
-
-}
-
-.new_year_texts {
-    color: rgb(244, 0, 0);
+    margin-top: 50px;
+    color: #ffffff;
     text-align: center;
-    padding: 260px 0px;
-    text-shadow: 5px 5px -5px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 255px 470px;
+    text-align: center;
 }
 
 .new_year_greeting {
@@ -91,7 +74,6 @@ body {
 .hero_second {
     background: url("img/Vectorrr.png");
     background-repeat: no-repeat;
-    /*  */
     height: 600px;
     margin: 50px 40px;
     position: relative;
@@ -157,6 +139,7 @@ body {
 .Join_now_btn:hover {
     background-color: white;
     color: black;
+    transition: .5s;
 }
 
 .park_hotel_section {
@@ -244,28 +227,30 @@ body {
 
 
 .holiday_container {
-  margin-top: 250px;
+    margin-top: 250px;
 
 
 }
 
-.holiday_right{
+.holiday_right {
     background-image: url("img/Group\ 79.png");
     background-repeat: no-repeat;
     width: 100%;
-    height:600px;
-   
-    
+    height: 600px;
+
+
 }
-.girl_pic{
+
+.girl_pic {
     width: 350px;
     height: 480px;
     margin-top: -45px;
     margin-left: 890px;
     position: relative;
-    
+
 }
-.off_price_pic{
+
+.off_price_pic {
     position: absolute;
     margin-top: -625px;
     margin-left: 105px;
@@ -401,48 +386,56 @@ body {
 label {
     padding: 15px 0px;
 }
+
 /* footer styling */
-.footer_container{
+.footer_container {
     background-color: #070211;
     margin: 0 auto;
     color: #ffffff;
     font-family: inter;
 }
-.horizontal_primary{
+
+.horizontal_primary {
     width: 950px;
     margin: 0 auto;
 }
-.footer_top{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 140px;
-}
-.footer_top_right ul li{
-    list-style: none;
-    text-align: center;
-    align-items: center;
-}
-.footer_top_right li a{
-    text-decoration: none;
-    color: white;
-    
-}
-.footer_top_right img{
-    text-align: center;
-}
-.footer_middle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-}
-.footer_middle img{
-    width: 65px;
-    height: 65px;
-}
-.footer_bottom{
+
+.footer_top {
     display: flex;
     justify-content: space-between;
     padding: 50px 140px;
 }
 
+.footer_top_right ul li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.footer_top_right li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer_top_right img {
+    text-align: center;
+}
+
+.footer_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.footer_middle img {
+    width: 65px;
+    height: 65px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
